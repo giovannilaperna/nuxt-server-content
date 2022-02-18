@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-server-content",
+  "version": "1.0.0",
+  "description": "Nuxt in server mode with content module",
+  "author": "Giovanni La Perna",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "heroku-postbuild": "nuxt build",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/content": "1.15.1",
+    "nuxt": "^2.15.0"
+  }
+}
